@@ -25,7 +25,7 @@ export const CONFIG = {
             title: "Update Log",
             description: "Changelog of content updates.",
             type: "meta",
-            path: "docunments/update.md",
+            path: "documents/update.md",
         },
     },
 };
