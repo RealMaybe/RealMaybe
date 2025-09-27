@@ -14,7 +14,7 @@ const outDir = join(ROOT, CONFIG.outDir);
 const outFile = join(ROOT, CONFIG.outFile);
 
 // 生成 GitHub raw 内容链接
-const { self: selfConfig, update: updateConfig } = CONFIG.specialEntries;
+const { self: selfConfig } = CONFIG.specialEntries;
 
 // 主流程
 async function main() {
@@ -35,22 +35,12 @@ async function main() {
             }),
         };
 
-        // 👉 第1项：update.md 的链接
-        const updateEntry = {
-            ...updateConfig,
-            link: createUrl({
-                ...CONFIG,
-                path: updateConfig.path,
-            }),
-        };
-
         // 3. 合并数组
         const finalIndex = [
             {
                 ...selfEntry,
                 generatedAt: Date.now(), // 添加时间戳
             },
-            updateEntry,
             ...documents,
         ];
 
@@ -58,7 +48,7 @@ async function main() {
         await writeFile(outFile, JSON.stringify(finalIndex, null, 4), "utf8");
 
         console.log(
-            `✅ 已生成索引：${finalIndex.length} 项（包含 self + update + ${documents.length} 文档）`
+            `✅ 已生成索引：${finalIndex.length} 项（包含 self + ${documents.length} 文档）`
         );
     } catch (error) {
         console.error("❌ 构建索引失败：", error);

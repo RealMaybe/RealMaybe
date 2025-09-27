@@ -20,12 +20,5 @@ export const CONFIG = {
             type: "system",
             path: "data/index.json",
         },
-        update: {
-            slug: "update",
-            title: "Update Log",
-            description: "Changelog of content updates.",
-            type: "meta",
-            path: "documents/update.md",
-        },
     },
 };
