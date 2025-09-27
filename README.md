@@ -4,16 +4,7 @@
 
 <div style="text-align: center;">
     <!-- 动态打字效果 -->
-    <img src="https://readme-typing-svg.demolab.com?
-        font=Fira+Code&
-        size=24&
-        pause=1000&
-        color=5D3FD3&
-        center=true&
-        vCenter=true&
-        width=500&
-        lines=开发者+%7C+创作者;写代码+%26+写故事;白昼造界面%2C+夜晚写诗;用声音讲故事的人
-    " alt="Typing Effect" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=5D3FD3&center=true&vCenter=true&width=500&lines=开发者+%7C+创作者;写代码+%26+写故事;白昼造界面%2C+夜晚写诗;用声音讲故事的人" alt="Typing Effect" />
     <br/>
     <!-- GitHub Stats -->
     <div style="
@@ -22,18 +13,8 @@
         align-items: start;
         margin-bottom: 20px;"
     >
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?
-            username=RealMaybe&
-            layout=compact&
-            theme=radical&
-            hide_border=true
-        " width="48%" />
-        <img src="https://github-readme-stats.vercel.app/api?username=RealMaybe&
-            show_icons=true&
-            theme=radical&
-            hide_border=true&
-            include_all_commits=true
-        " width="48%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealMaybe&layout=compact&theme=radical&hide_border=true" width="48%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=RealMaybe&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" width="48%" />
     </div>
 </div>
 
@@ -64,7 +45,7 @@
 
 ## 🤝 欢迎你
 
-若你对我的作品感到好奇，欢迎前往我的个人站：👉 [RealMaybe - 个人网站](https://www.realmaybe.space/index)
+若你对我的作品感到好奇，欢迎前往我的个人站：👉 [RealMaybe - 个人网站](https://www.realmaybe0429.space/index)
 
 所有故事皆以我为始，亦不止于我。
 
@@ -75,50 +56,26 @@
 <div style="margin-bottom: 20px;">
     <!-- 第一行：个人网站、邮箱、Twitter -->
     <div style="margin-bottom: 10px;">
-        <a href="https://realmaybe.space" target="_blank">
-            <img src="https://img.shields.io/badge/个人网站-4285F4?
-                style=for-the-badge&
-                logo=google-chrome&
-                logoColor=white
-            " alt="个人网站" />
+        <a href="https://www.realmaybe0429.space/index" target="_blank">
+            <img src="https://img.shields.io/badge/个人网站-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="个人网站" />
         </a>
         <a href="mailto:realmaybe0429@qq.com" target="_blank">
-            <img src="https://img.shields.io/badge/邮箱-D14836?
-                style=for-the-badge&
-                logo=gmail&
-                logoColor=white
-            " alt="邮箱" />
+            <img src="https://img.shields.io/badge/邮箱-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="邮箱" />
         </a>
         <a href="https://x.com/RealMaybe0429" target="_blank">
-            <img src="https://img.shields.io/badge/X-black?
-                style=for-the-badge&
-                logo=X&
-                logoColor=white
-            " alt="X" />
+            <img src="https://img.shields.io/badge/X-black?style=for-the-badge&logo=X&logoColor=white" alt="X" />
         </a>
     </div>
     <!-- 第二行：网易云音乐、微博、Bilibili -->
     <div>
         <a href="https://music.163.com/#/artist?id=34235427" target="_blank">
-            <img src="https://img.shields.io/badge/网易云音乐-FF0000?
-                style=for-the-badge&
-                logo=netease-music&
-                logoColor=white
-            " alt="网易云音乐" />
+            <img src="https://img.shields.io/badge/网易云音乐-FF0000?style=for-the-badge&logo=netease-music&logoColor=white" alt="网易云音乐" />
         </a>
         <a href="https://weibo.com/u/5678690912" target="_blank">
-            <img src="https://img.shields.io/badge/微博-E6162D?
-                style=for-the-badge&
-                logo=sina-weibo&
-                logoColor=white
-            " alt="微博" />
+            <img src="https://img.shields.io/badge/微博-E6162D?style=for-the-badge&logo=sina-weibo&logoColor=white" alt="微博" />
         </a>
         <a href="https://space.bilibili.com/175020735" target="_blank">
-            <img src="https://img.shields.io/badge/Bilibili-00A1D6?
-                style=for-the-badge&
-                logo=bilibili&
-                logoColor=white
-            " alt="Bilibili" />
+            <img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili" />
         </a>
     </div>
 </div>
