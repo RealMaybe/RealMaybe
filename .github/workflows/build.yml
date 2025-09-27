@@ -1,0 +1,39 @@
+name: Build index.json
+
+on:
+    push:
+        branches: [main] # 只监听 main 分支
+    workflow_dispatch: # 手动运行按钮
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            # 1. 拉代码
+            - uses: actions/checkout@v4
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }} # 后面要回推产物，必须带 token
+
+            # 2. 安装 Node 18+（自带 corepack）
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 18
+
+            # 3. 启用 pnpm 并装依赖
+            - name: Install pnpm
+              run: corepack enable && corepack prepare --activate
+            - name: Install dependencies
+              run: pnpm install --frozen-lockfile
+
+            # 4. 运行构建
+            - name: Build
+              run: pnpm run build
+
+            # 5. 把生成的 index.json 提交回仓库（可选）
+            - name: Commit & push if changed
+              run: |
+                  git config --local user.email "github-actions[bot]@users.noreply.github.com"
+                  git config --local user.name "github-actions[bot]"
+                  git add data/index.json
+                  git diff --cached --quiet || (git commit -m "chore: update index.json" && git push)

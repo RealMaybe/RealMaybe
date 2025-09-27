@@ -1,6 +1,6 @@
-# 你好，我是 RealMaybe 🌌
+# Hello, I'm RealMaybe 🌌
 
-> _“用代码翻译想象，用旋律续写夜晚。”_
+> _"Translate imagination with code, continue the night with melody."_
 
 <div style="text-align: center;">
     <!-- 动态打字效果 -->
@@ -12,7 +12,7 @@
         center=true&
         vCenter=true&
         width=500&
-        lines=开发者+%7C+创作者;写代码+%26+写故事;白昼造界面%2C+夜晚写诗;用声音讲故事的人
+        lines=Developer+%7C+Creator;Write+code+%26+stories;Build+interfaces+by+day%2C+write+poetry+by+night;Tell+stories+with+sound
     " alt="Typing Effect" />
     <br/>
     <!-- GitHub Stats -->
@@ -39,55 +39,55 @@
 
 ---
 
-## 🧩 我是谁
+## 🧩 Who Am I
 
-我是一个着迷于**语言、音乐与交互之美**的开发者与创作者。
+I am a developer and creator captivated by the beauty of **language, music, and interaction**.
 
-你可以叫我 **许真**，或 **尘羽**——  
-这是我在数字世界中的两个化身，也是我写下的故事里，未曾说完的角色。
+You can call me **Real_KyoShinn** or **Chen Yu**—  
+two avatars in my digital world, and characters from stories still unfolding.
 
-在屏幕这一端，我同时扮演两种身份：
+On this side of the screen, I live two lives:
 
--   💻 **白天**：用代码把想象力翻译成可见的界面；
--   🌙 **夜晚**：把键盘换成笔与麦克风，让文字和旋律替我继续做梦。
-
----
-
-## 🎨 我喜欢的事
-
--   🎵 **用声音讲故事**：翻唱、即兴哼唱，把情绪唱成一段可回放的时光。
--   ✍️ **用文字搭桥梁**：写下的每一句，都是给未来的信，也想与你交换一个会心的眼神。
--   🎮 **用游戏看世界**：每一次“开始游戏”，都是一次短暂的远行，在别人的规则里练习成为更勇敢的自己。
--   🔐 **语言是钥匙**：每学会一种新语言，就像打开一扇新窗，让远方的风吹进来。
+- 💻 **By day**: Turning imagination into interfaces, one line of code at a time.
+- 🌙 **By night**: Trading keyboards for pens and microphones, letting words and melodies carry my dreams forward.
 
 ---
 
-## 🤝 欢迎你
+## 🎨 What I Love
 
-若你对我的作品感到好奇，欢迎前往我的个人站：👉 [RealMaybe - 个人网站](https://www.realmaybe.space/index)
-
-所有故事皆以我为始，亦不止于我。
+- 🎵 **Telling Stories with Sound**: Cover songs, improvisational singing, turning emotions into replayable moments.
+- ✍️ **Bridging with Words**: Every sentence written is a letter to the future, hoping to exchange a knowing glance with you.
+- 🎮 **Seeing the World Through Games**: Each "Start Game" is a brief journey, practicing becoming braver under someone else's rules.
+- 🔐 **Language as Keys**: Learning a new language feels like opening a window, letting the distant breeze blow in.
 
 ---
 
-## 📫 我们可以在这些地方相遇
+## 🤝 Welcome
+
+If you're curious about my work, feel free to visit my personal site: 👉 [RealMaybe - Personal Website](https://www.realmaybe.space/index)
+
+All stories begin with me but don't end with me.
+
+---
+
+## 📫 Where You Can Find Me
 
 <div style="margin-bottom: 20px;">
     <!-- 第一行：个人网站、邮箱、Twitter -->
     <div style="margin-bottom: 10px;">
         <a href="https://realmaybe.space" target="_blank">
-            <img src="https://img.shields.io/badge/个人网站-4285F4?
+            <img src="https://img.shields.io/badge/Personal Website-4285F4?
                 style=for-the-badge&
                 logo=google-chrome&
                 logoColor=white
-            " alt="个人网站" />
+            " alt="Personal Website" />
         </a>
         <a href="mailto:realmaybe0429@qq.com" target="_blank">
-            <img src="https://img.shields.io/badge/邮箱-D14836?
+            <img src="https://img.shields.io/badge/Email-D14836?
                 style=for-the-badge&
                 logo=gmail&
                 logoColor=white
-            " alt="邮箱" />
+            " alt="Email" />
         </a>
         <a href="https://x.com/RealMaybe0429" target="_blank">
             <img src="https://img.shields.io/badge/X-black?
@@ -100,18 +100,18 @@
     <!-- 第二行：网易云音乐、微博、Bilibili -->
     <div>
         <a href="https://music.163.com/#/artist?id=34235427" target="_blank">
-            <img src="https://img.shields.io/badge/网易云音乐-FF0000?
+            <img src="https://img.shields.io/badge/Netease%20Music-FF0000?
                 style=for-the-badge&
                 logo=netease-music&
                 logoColor=white
-            " alt="网易云音乐" />
+            " alt="Netease Music" />
         </a>
         <a href="https://weibo.com/u/5678690912" target="_blank">
-            <img src="https://img.shields.io/badge/微博-E6162D?
+            <img src="https://img.shields.io/badge/Sina%20Weibo-E6162D?
                 style=for-the-badge&
                 logo=sina-weibo&
                 logoColor=white
-            " alt="微博" />
+            " alt="Sina Weibo" />
         </a>
         <a href="https://space.bilibili.com/175020735" target="_blank">
             <img src="https://img.shields.io/badge/Bilibili-00A1D6?
@@ -125,9 +125,9 @@
 
 ---
 
-## ⚡ 小小彩蛋
+## ⚡ A Small Easter Egg
 
-> “相遇已是奇迹，偏偏那一刻你我同时回首。”  
-> 既然命运按下了暂停键，何不将这一瞬存为 **好友申请**？
+> “Meeting is already a miracle, how coincidental that we both looked back at that moment.”  
+> Since fate has paused, why not save this moment as a **friend request**?
 
-✨ 此主页由咖啡、代码与未完成的歌组成。
+✨ This homepage is made up of coffee, code, and unfinished songs.

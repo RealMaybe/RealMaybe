@@ -1,0 +1,17 @@
+{
+    "name": "realmaybe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "node scripts/docs-index.js"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "RealMaybe",
+    "license": "MIT",
+    "packageManager": "pnpm@10.17.1",
+    "dependencies": {
+        "gray-matter": "^4.0.3"
+    }
+}
