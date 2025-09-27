@@ -3,7 +3,20 @@
 > _"Translate imagination with code, continue the night with melody."_
 
 <div style="text-align: center;">
-w
+    <!-- GitHub Stats -->
+    <div>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealMaybe&layout=compact&theme=radical&hide_border=true" width="48%" />
+        <br/>
+        <img src="https://github-readme-stats.vercel.app/api?username=RealMaybe&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" width="48%" />
+    </div>
+    <div style="
+        margin-top: 20px;
+        font-size: 14px;
+        color: #888;
+    ">
+        <span>中文文档：</span>
+        <a href="./README.md">README.md</a>
+    </div>
 </div>
 
 ---

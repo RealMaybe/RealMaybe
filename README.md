@@ -9,6 +9,14 @@
         <br/>
         <img src="https://github-readme-stats.vercel.app/api?username=RealMaybe&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" width="48%" />
     </div>
+    <div style="
+        margin-top: 20px;
+        font-size: 14px;
+        color: #888;
+    ">
+        <span>English document：</span>
+        <a href="./README.en.md">README.en.md</a>
+    </div>
 </div>
 
 ---
