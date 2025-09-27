@@ -3,19 +3,7 @@
 > _"Translate imagination with code, continue the night with melody."_
 
 <div style="text-align: center;">
-    <!-- 动态打字效果 -->
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=5D3FD3&center=true&vCenter=true&width=500&lines=开发者+%7C+创作者;写代码+%26+写故事;白昼造界面%2C+夜晚写诗;用声音讲故事的人" alt="Typing Effect" />
-    <br/>
-    <!-- GitHub Stats -->
-    <div style="
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
-        margin-bottom: 20px;"
-    >
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealMaybe&layout=compact&theme=radical&hide_border=true" width="48%" />
-        <img src="https://github-readme-stats.vercel.app/api?username=RealMaybe&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" width="48%" />
-    </div>
+w
 </div>
 
 ---
