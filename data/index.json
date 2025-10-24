@@ -1,0 +1,35 @@
+[
+    {
+        "slug": "self",
+        "title": "Document Index",
+        "description": "This JSON file contains all document metadata.",
+        "type": "system",
+        "path": "data/index.json",
+        "link": "https://raw.githubusercontent.com/RealMaybe/RealMaybe/main/data/index.json",
+        "generatedAt": 1761332460401
+    },
+    {
+        "slug": "blog/20250924-test",
+        "title": "20250924-test",
+        "date": "",
+        "description": "",
+        "tags": [],
+        "link": "https://raw.githubusercontent.com/RealMaybe/RealMaybe/main/documents/blog/20250924-test.md"
+    },
+    {
+        "slug": "oc/文章",
+        "title": "文章",
+        "date": "",
+        "description": "",
+        "tags": [],
+        "link": "https://raw.githubusercontent.com/RealMaybe/RealMaybe/main/documents/oc/文章.md"
+    },
+    {
+        "slug": "update",
+        "title": "update",
+        "date": "",
+        "description": "",
+        "tags": [],
+        "link": "https://raw.githubusercontent.com/RealMaybe/RealMaybe/main/documents/update.md"
+    }
+]
