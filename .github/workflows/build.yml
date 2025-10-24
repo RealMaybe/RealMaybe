@@ -15,7 +15,7 @@ jobs:
               with:
                   token: ${{ secrets.GITHUB_TOKEN }} # 后面要回推产物，必须带 token
 
-            # 2. 安装 Node 18+（自带 corepack）
+            # 2. 安装 Node 18+
             - uses: actions/setup-node@v4
               with:
                   node-version: 18
@@ -30,7 +30,7 @@ jobs:
             - name: Build
               run: pnpm run build
 
-            # 5. 把生成的 index.json 提交回仓库（可选）
+            # 5. 把生成的 index.json 提交回仓库
             - name: Commit & push if changed
               run: |
                   git config --local user.email "github-actions[bot]@users.noreply.github.com"
