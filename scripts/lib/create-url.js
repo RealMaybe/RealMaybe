@@ -1,3 +1,5 @@
+// scripts/lib/create-url.js
+
 /**
  * 生成 GitHub raw 内容链接
  * @param { Object } options - 配置选项

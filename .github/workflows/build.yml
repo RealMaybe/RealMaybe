@@ -2,38 +2,43 @@ name: Build index.json
 
 on:
     push:
-        branches: [main] # 只监听 main 分支
-    workflow_dispatch: # 手动运行按钮
+        branches: [main]
+        paths: ["documents/**", "scripts/**", "pnpm-lock.yaml", ".github/workflows/build-index.yml"]
+    workflow_dispatch:
 
 jobs:
     build:
         runs-on: ubuntu-latest
+        permissions:
+            contents: write # 显式声明要写仓库
 
         steps:
-            # 1. 拉代码
             - uses: actions/checkout@v4
               with:
-                  token: ${{ secrets.GITHUB_TOKEN }} # 后面要回推产物，必须带 token
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  fetch-depth: 0 # 解决「回推时报 ahead」问题
 
-            # 2. 安装 Node 18+
             - uses: actions/setup-node@v4
               with:
                   node-version: 18
+                  cache: "pnpm" # 把 pnpm store 也缓存起来
 
-            # 3. 启用 pnpm 并装依赖
             - name: Install pnpm
-              run: corepack enable && corepack prepare --activate
-            - name: Install dependencies
+              run: corepack enable
+
+            - name: Install deps
               run: pnpm install --frozen-lockfile
 
-            # 4. 运行构建
             - name: Build
               run: pnpm run build
 
-            # 5. 把生成的 index.json 提交回仓库
+            # 关键：用 [skip ci] 防止触发新一轮 workflow
             - name: Commit & push if changed
               run: |
-                  git config --local user.email "github-actions[bot]@users.noreply.github.com"
-                  git config --local user.name "github-actions[bot]"
+                  git config user.name  "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
                   git add data/index.json
-                  git diff --cached --quiet || (git commit -m "chore: update index.json" && git push)
+                  git diff --cached --quiet || (
+                    git commit -m "chore: update index.json [skip ci]"
+                    git push
+                  )

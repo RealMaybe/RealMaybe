@@ -8,9 +8,9 @@ import { createUrl } from "./create-url.js";
 
 /**
  * 扫描文档目录，生成内容索引数组
- * @param {string} docsDir - 文档根目录（绝对路径）
- * @param {Object} config - 包含 userName, repoName, branch 等信息
- * @returns {Promise<Array>} 索引数据数组
+ * @param { string } docsDir - 文档根目录（绝对路径）
+ * @param { object } config - 包含 userName, repoName, branch 等信息
+ * @returns { Promise<Array> } 索引数据数组
  */
 export async function buildIndex(docsDir, config) {
     const { userName, repoName, branch } = config;
