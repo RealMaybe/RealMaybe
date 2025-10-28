@@ -3,23 +3,25 @@
 > _“用代码翻译想象，用旋律续写夜晚。”_
 
 <!-- GitHub Stats -->
-<div style="
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 20px;
-">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealMaybe&layout=compact&theme=radical&hide_border=true" width="48%" />
-    <br/>
-    <img src="https://github-readme-stats.vercel.app/api/?username=RealMaybe&theme=radical&hide_border=true&include_all_commits=true&show_icons=true" width="48%" />
-</div>
-<div style="
-    margin-top: 20px;
-    font-size: 14px;
-    color: #888;
-">
-    <span>English document：</span>
-    <a href="./README.en.md">README.en.md</a>
+<div>
+    <div style="
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    ">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealMaybe&layout=compact&theme=radical&hide_border=true" width="48%" />
+        <br/>
+        <img src="https://github-readme-stats.vercel.app/api/?username=RealMaybe&theme=radical&hide_border=true&include_all_commits=true&show_icons=true" width="48%" />
+    </div>
+    <div style="
+        margin-top: 20px;
+        font-size: 14px;
+        color: #888;
+    ">
+        <span>English document：</span>
+        <a href="./README.en.md">README.en.md</a>
+    </div>
 </div>
 
 ---
