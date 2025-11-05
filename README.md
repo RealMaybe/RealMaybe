@@ -50,7 +50,7 @@
 
 ## 🤝 欢迎你
 
-若你对我的作品感到好奇，欢迎前往我的个人站：👉 [RealMaybe - 个人网站](https://realmaybe.github.io/index)
+若你对我的作品感到好奇，欢迎前往我的个人站：👉 [RealMaybe - 个人网站](https://www.realmaybe0429.space/index)
 
 所有故事皆以我为始，亦不止于我。
 
@@ -61,7 +61,7 @@
 <div style="margin-bottom: 20px;">
     <!-- 第一行：个人网站、邮箱、Twitter -->
     <div>
-        <a href="https://realmaybe.github.io/index" target="_blank">
+        <a href="https://www.realmaybe0429.space/index" target="_blank">
             <img src="https://img.shields.io/badge/个人网站-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="个人网站" />
         </a>
         <a href="mailto:realmaybe0429@qq.com" target="_blank">

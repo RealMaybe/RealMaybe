@@ -50,7 +50,7 @@ Beyond code, I also explore more possibilities of stories and emotions as a **fi
 
 ## 🤝 Welcome
 
-If you're curious about my work, feel free to visit my personal site: 👉 [RealMaybe - Personal Website](https://realmaybe.github.io/index)
+If you're curious about my work, feel free to visit my personal site: 👉 [RealMaybe - Personal Website](https://www.realmaybe0429.space/index)
 
 All stories begin with me but don't end with me.
 
@@ -61,7 +61,7 @@ All stories begin with me but don't end with me.
 <div style="margin-bottom: 20px;">
     <!-- Row 1: Personal Website, Email, Twitter -->
     <div>
-        <a href="https://realmaybe.github.io/index" target="_blank">
+        <a href="https://www.realmaybe0429.space/index" target="_blank">
             <img src="https://img.shields.io/badge/Personal Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Personal Website" />
         </a>
         <a href="mailto:realmaybe0429@qq.com" target="_blank">
